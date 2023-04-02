@@ -14,7 +14,7 @@
 		<meta name="keywords" content="黄智临","黄智临的网站","黄智临的小破站","黄智临的小网站">
 		<meta name="description" content="不过是个初中生自己搓的小破站">
 		<meta name="author" content="hzlthomas">
-
+	
 	</head>
 	<body>
 		<a href="https://github.com/hzlthomas">
@@ -31,6 +31,13 @@
 		<p>
 			这是专门提供给被极域电子教室限制住的学生提供的工具
 		</p>
+document.addEventListener('visibilitychange', function () {  
+if (document.visibilityState == 'hidden') {  
+    normal_title = document.title;  
+    document.title = '干啥呢？';  //展示文字
+} else document.title = normal_title;  
+});  
+
 
 		<a href="https://pan.huang1111.cn/s/xLxEuV">
 			Revo Uninstaller Pro 5.0.3.exe
